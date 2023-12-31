@@ -1,4 +1,4 @@
-let parent_div = document.getElementsByClassName("parent-div")[0].children;
+let parent_div = document.getElementsByClassName("parent-div")[0]?.children;
 
 console.log("parent-div", parent_div);
 
